@@ -1,30 +1,9 @@
-const Chart = require('chart.js');
-const ctx = window.getElementById('myChart');
-    (async function() {
-        console.log("gi");
-  const data = [
-    { year: 2010, count: 10 },
-    { year: 2011, count: 20 },
-    { year: 2012, count: 15 },
-    { year: 2013, count: 25 },
-    { year: 2014, count: 22 },
-    { year: 2015, count: 30 },
-    { year: 2016, count: 28 },
-  ];
-
-  new Chart(
-    ctx,
-    {
-      type: 'bar',
-      data: {
-        labels: data.map(row => row.year),
-        datasets: [
-          {
-            label: 'Acquisitions by year',
-            data: data.map(row => row.count)
-          }
-        ]
-      }
-    }
-  );
-})();
+const arr = [3,5,6,2];
+let temp,size = arr.length-1;
+for(let i=size;i>=2;i--){
+  temp = arr[i];
+  arr[i] = arr[i+1];
+  arr[i+1] = temp;
+};
+arr[2] = 0; 
+console.log(arr);
