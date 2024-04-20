@@ -1,9 +1,8 @@
-const arr = [3,5,6,2];
-let temp,size = arr.length-1;
-for(let i=size;i>=2;i--){
-  temp = arr[i];
-  arr[i] = arr[i+1];
-  arr[i+1] = temp;
-};
-arr[2] = 0; 
-console.log(arr);
+const prompt = require('prompt-sync')();
+const a = prompt("Enter a number.");
+let sum = 0;
+for(let i=1;i<a;i++){
+  console.log(i);
+  sum += i;
+}
+console.log("Sum - ",sum);
