@@ -6,9 +6,9 @@ int main()
         for(j=1;j<=7;j++){
             if(i<=7/2){
                 if(j == 5-i || j == 3+i){
-                printf("*");
+                    printf("*");
                }else{
-                printf(" ");
+                    printf(" ");
             }
             }else{
                 if(j == i-3 || j == 11-i){
@@ -17,7 +17,6 @@ int main()
                     printf(" ");
                 }
             }
-            
         }
         printf("\n");
     }

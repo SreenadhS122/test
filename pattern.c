@@ -1,21 +1,10 @@
 #include <stdio.h>
 int main()
 {
-    int i,j,val,k=0;
-    for(i=0;i<5;i++){
-        val = 1;
-        for(j=0;j<9;j++){
-            if(j >= 6-i && j <= 4+i && k == 0){
-                printf("%d",val);
-                val++;
-                k=1;
-            }else{
-                printf(" ");
-                k=0;
-            }
-           
-        }
-        printf("\n");
-    }
-    return 0;
+  int a[3][3] = {{1,2,3},{2,3,1},{1,4,2}},i,sum=0;
+  for(i=0;i<3;i++){
+    sum = sum + (a[0][i] * (a[1][(i+1)%3] * a[2][(i+2)%3] - a[1][(i+2)%3] * a[2][(i+1)%3]));
+  }
+  printf("%d",sum);
+return 0;
 }
