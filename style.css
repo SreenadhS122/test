@@ -1,0 +1,532 @@
+body{
+    overflow-x: hidden;
+}
+.firstpage 
+{
+ background-color: #26335D;
+ width: 1440px;
+ height: 777px;
+}
+.navbar {
+    color: white;
+    width: 1322px;
+    height: 91px; 
+    display: flex; 
+    justify-content: space-between;
+
+}
+
+.searchbutton {
+    background-color: #1BA0AB;
+    width: 137px;
+    height: 52px;
+    border-radius: 4px;
+    display: inline;
+    margin-right: 0px;
+    margin-left: 40px;
+    border-color: transparent;
+}
+.navbar1 {
+    margin-left: 59px;
+}
+.navitems {
+    margin-left: 30px;
+    display: inline;
+}
+.navitems a {
+    margin-left: 21px;
+}
+.navbar a {
+    font-weight: bold;
+}
+.firstpagecontent {
+    width: 573px;
+    height: 356px;
+    margin-top: 90px;
+    margin-left: 65px;
+}
+.firstpagemaincontent {
+    padding: 50px;
+    color: white;
+    display: flex;
+}
+.firstpagemaincontent h5{
+    color:  #1BA0AB;
+}
+.images {
+    width: 544px;
+    height: 599px;
+    padding: 0px;
+    margin-left: 50px;
+    margin-bottom: 60px;
+}
+.secondpage {
+    width: 1440px;
+    height: 692px;
+    display: flex;
+    padding: 50px;
+    justify-content: space-around;
+}
+.secondpage-img {
+    width: 508px;
+    height: 552px;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.secondpage-content{
+    width: 381px;
+    height: 246px;
+    margin-top: 150px;
+}
+.secondpage-content hr{
+    width: 94px;
+    height: 4px;
+    color: #F69B25;
+}
+.secondpage-content h1{
+    font-weight: bold;
+    margin-top: 35px;
+}
+.secondpage-content p{
+    margin-top: 35px;
+    color: #737373;
+}
+.secondpage-content a{
+    margin-top: 35px;
+    color:  #1BA0AB;
+    font-weight: 700;
+    text-decoration: none;
+    align-items: center;
+    line-height: 4px;
+}
+.secondpage-arrowicon {
+    position: absolute;
+    margin-left: 10px; 
+    display: inline;
+    color:#1BA0AB;
+}
+.companies{
+    width: 1440px;
+    height: 175px;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.company-logo{
+    width: 1050px;
+    display: flex;
+    height: 175px;
+    align-self: center;
+}
+.company-logo img{
+    width: 153px;
+    height: 34px;
+}
+.thirdpage{
+    width: 1440;
+    height: 964;
+}
+.thirdpage-content {
+    padding-left: 100px;
+    padding-top: 50px;
+}
+.thirdpage-content h5{
+    color: #1BA0AB;
+}
+.thirdpage-content h1{
+    font-weight: 700;
+    margin-top: 10px;
+}
+.thirdpage-content p{
+    color: #737373;
+
+}
+.products{
+    display: flex;
+    width: 1045px;
+    height: 622px;
+    padding-top: 50px;
+    justify-content: space-between;
+}
+.product{
+    width: 328px;
+    height: 622px;
+    padding: 0px 100px 0px;
+}
+.product-image{
+    width: 348px;
+    height: 300px;
+    background-image: url(./images/product-1.png);
+}
+.product-details{
+    width: 348px;
+    height: 322px;
+    padding: 25px, 25px, 35px, 25px;
+}
+.sale-icon{
+    width: 51px;
+    height: 21px;
+    background-color: red;
+    margin-top: 20px;
+    margin-left: 20px;
+    position: absolute;
+}
+.sale-icon h6{
+    text-align: center;
+    color: white;
+}
+.product-options{
+    display: flex;
+    margin-left: 94px;
+    margin-top: 236px;
+    align-items: center;
+    position: absolute;
+}
+
+.product-price{
+    margin-top: 10px; 
+    color: #BDBDBD;
+    font-weight: 700;
+    font-size:16px ;
+}
+.discount-price{
+    font-weight: 700;
+    font-size:16px ; 
+    color: #2DC071;
+}
+.product-learnmorebutton{
+    width: 141px;
+    height: 44px;
+    background-color: transparent;
+    border:1px solid#1BA0AB;
+    border-width: 5px;
+    border-radius: 37px;
+    color: #1BA0AB;
+    align-content: center;
+}
+.product-learnmorebutton a{
+    padding-left: 15px;
+    padding-bottom: 5px;
+}
+#product-name{
+    color: #1BA0AB;
+    font-size: 14px;
+    font-weight: bold;
+}
+.rating{
+    width: 50px;
+    height: 26px;
+    border-radius: 20px;
+    background-color:#26335D;
+    color: white;
+    font-weight: 400;
+}
+.rating p{
+    padding: 1px 2px 1px 4px;
+}
+.product-name-rating{
+    justify-content: space-between;
+    padding-top: 10px;
+}
+#product-quote{
+    font-size: 16px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+#product-description{
+    color: #737373;
+    font-size: 14px;
+    font-weight: 400px;
+    padding-top: 10px;
+}
+.icons{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    background-color: white;
+    border-radius: 50%;
+}
+.icons span{
+    position: absolute;
+    padding: 8px;
+}
+.fourthpage{
+    height: 1314px;
+    width: 100%;
+}
+.fourthpage-cards{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+.fourthpage-each-cards{
+    width: 323px;
+    height: 908px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card-item-1{
+    width: 96px;
+    height: 96px;
+    border-radius:50%;
+    background-color: #F69B25;
+    align-self: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.card-item-1 span{
+    width: 50px;
+    height: 50px;
+    font-size: 300%;
+    color: white;
+    position: absolute;
+    align-content: center;
+    text-align: center;
+    align-self: center;
+}
+.card-item-2 {
+    color: #252B42;
+    font-weight: 700;
+    align-self:center;
+    padding-top: 35px;
+}
+.card-item-3{
+    color: #737373;
+    font-weight: 700;
+    text-align: center;
+    align-self: center;
+    padding-top: 35px;
+}
+.card-item-4{
+    color: #1BA0AB;
+    font-weight: 700;
+    font-size: 40px;
+    align-self: center;
+    padding-top: 35px;
+}
+.card-item-5{
+    color: #8EC2F2;
+    font-size: 14px;
+    font-weight: 700;
+    padding-top: 35px;
+    align-self: center;
+}
+.card-item-6{
+    width: 200px;
+    height: 60px;
+    color: #737373;
+    font-size: 14px;
+    font-weight: 400;
+    padding-top: 35px;
+    text-align: center;
+    align-self: center;
+    padding-bottom: 35px;
+}
+#cardbutton{
+    background-color: #1BA0AB;
+    width: 243px;
+    height: 52px;
+    border-radius: 5px;
+    display: block;
+    border-color: transparent;
+    font-weight: 700;
+    color: white;
+    align-self: center;
+}
+
+.card-tick-icon{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #2DC071;
+    display: inline;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-position-x: 20px;
+}
+.card-tick-icon span{
+    position: absolute;
+    align-self: center;
+    color: white;
+}
+.list-items{
+    display: flex;
+    max-width: 243px;
+    height: 32px;
+    align-content: center;
+    padding-top: 40px;
+    align-self: center;
+}
+.fourthpage-cards ul{
+    margin-bottom: 0px;
+    padding-left: 0px;
+    align-self: center;
+}
+.list-items p{
+    padding-left: 10px;
+    font-weight: 700;
+    max-width: 201px;
+    font-size: 14px;
+}
+.card-grey-tick-icon{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #BDBDBD;
+    display: inline;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-position-x: 20px;
+}
+.card-grey-tick-icon span{
+    position: absolute;
+    align-self: center;
+    color: white;
+    font-weight: lighter;
+}
+.new-offer-card{
+    width: 323px;
+    height: 908px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #26335D;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.new-offer-card h3,h6{
+    color: white;
+}
+.new-offer-card-new-icon{
+    height: 90px;
+    width: 90px;
+    margin-left: 261px; 
+    background-color: #E77C40;
+    background-position-x: center;
+    position: absolute;
+    border-radius: 52px;
+    margin-top: -31px;
+    padding: 32px 16px;
+    text-align: center;
+    color: white;
+    
+}
+.new-offer-card-new-icon h3{
+    font-size: 20px;
+    font-weight: 700;
+}
+.fifthpage{
+    width: 100%;
+    height: 855px;
+    background-color: #26335D;
+}
+.fifthpage-cards{
+    display: flex;
+    justify-content: space-around;
+    padding: 160px 0px 160px 0px;
+    align-items: center;
+    gap: 80px;
+}
+.fifthpage-card-items{
+    background-color: white;
+    width: 348px;
+    height: 318px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.fifthpage-card-details{
+    width: 159px;
+    height: auto;
+    align-self: center;
+}
+.fifthpage-card-details p{
+    color: #737373;
+}
+.fifthpage-card-star{
+    align-self: center;
+}
+.fifthpage-card-items span{
+    color: #F3CD03;
+    font-size: 30px;
+}
+.designer-badge{
+    width: fit-content;
+    height: 50px;
+    align-self: center;
+    display: flex;
+}
+.designer-badge img{
+    width: 50px;
+    height: 50px;
+}
+.designer-details{
+    padding-left: 15px;
+}
+.designer-details h6{
+    color:#1BA0AB;
+    font-size: 16px;
+    font-weight: 700;
+}
+.designer-details p{
+    color:#252B42;
+    font-size: 12px;
+    font-weight: 500;
+}
+.lastpage{
+    width: 100%;
+    height: 594px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.lastpage-content{
+    align-self: center;
+    padding-top: 80px;
+}
+.lastpage-content h6{
+    color: #1BA0AB;
+    text-align: center;
+}
+.lastpage-content h2{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+.lastpage-content p{
+    color: #737373;
+    font-size: 14px;
+    text-align: center;
+    width: 469px;
+}
+.subscribe-option{
+    align-self: center;
+    display: flex;
+}
+.subscribe-option input{
+    border: none;
+    width: 571px;
+    height: 58px;
+    background-color: #F9F9F9;
+    border: 1px #E6E6E6;
+    padding: 0px;
+    border-radius: 5px 0px 0px 5px;
+}
+.subscribe-option button{
+    width: 117px;
+    height: 58px;
+    padding-left: 0px;
+    background-color: #1BA0AB;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+}
